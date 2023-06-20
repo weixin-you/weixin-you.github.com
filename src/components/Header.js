@@ -10,7 +10,7 @@ function Header() {
           <ul className='header-nav'>
             <li>HOME</li>
             <li>ABOUT US</li>
-            <li>PARTENERS</li>
+            <li>PARTNERS</li>
             <li>PROJECTS</li>
           </ul>
         </nav>
