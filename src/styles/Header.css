@@ -20,6 +20,10 @@
     padding-left: 0;
 }
 
+.linkhome {
+    text-decoration: none;
+}
+
 .donatebtn {
     min-width: 12rem;
     height: 6vh;
@@ -29,6 +33,8 @@
     color: white;
     border: none;
     border-radius: 3px;
+    text-decoration: none;
+    text-align: center;
 }
 
 .donatebtn:hover {
@@ -39,6 +45,16 @@
     background-color: red;
 }
 
+input.linkdonate {
+    display: inline-block;
+    color: white;
+    padding-top: 1rem;
+    border:none;
+    background-color: transparent;
+    font-size: 1.2rem;
+    font-weight: 700;
+
+}
 .search {
     height: 2rem;
     min-width: 10rem;

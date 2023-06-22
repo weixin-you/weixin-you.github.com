@@ -8,15 +8,20 @@ function Header() {
         <Link to='/'> <img src={logo} className='logo'/> </Link>
         <nav>
           <ul className='header-nav'>
-            <li>HOME</li>
+            <li><Link className='linkhome' to='/'>HOME</Link></li>
             <li>ABOUT US</li>
             <li>PARTNERS</li>
             <li>PROJECTS</li>
           </ul>
         </nav>
         
-        <input className="donatebtn" type='button' value={"DONATE NOW"}></input>
-        <input className='search' placeholder='SEARCH...'></input>
+  
+      
+        <Link to='/donate' className='donatebtn'>
+          <input type='button' value='DONATE NOW' className='linkdonate'/>
+        </Link>
+       
+        <input className='search' placeholder='SEARCH...'/>
     </div>
   )
 }
