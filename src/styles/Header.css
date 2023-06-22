@@ -1,0 +1,107 @@
+.navigation {
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    margin: 1rem auto;
+}
+.header-nav {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 50vw;
+    flex-basis: auto;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding-left: 0;
+}
+
+.donatebtn {
+    min-width: 12rem;
+    height: 6vh;
+    font-size: 1.2rem;
+    font-weight: 700;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+.donatebtn:hover {
+    background-color: purple;
+}
+
+.donatebtn:active{
+    background-color: red;
+}
+
+.search {
+    height: 2rem;
+    min-width: 10rem;
+    border-width: 2px;
+    border-style: none;
+    border: 2px solid gainsboro;
+    border-radius: 15px;
+
+}
+
+@media only screen and (max-width: 600px) {
+ 
+    .navigation {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .navigation img.logo {
+        display: inline-block;
+  
+    }
+
+    .navigation ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: space-around;
+        width: 100vw;
+        padding-left: 0;
+    }
+    .navigation ul li {
+        background-color: azure;
+        width: 90%;
+        margin-bottom: 1rem;
+        text-align: left;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .navigation ul li:hover {
+        background-color: blueviolet;
+        color: white;
+    }
+
+    .donatebtn {
+        width: 98%;
+        text-align: left;
+        align-self: flex-start;
+        margin-top: -1rem;
+        box-sizing: border-box;
+    }
+
+    .search{
+        width: 96%;
+        text-align: left;
+        align-self: flex-start;
+        margin-top: 1rem;
+        border-style: none;
+        border: 2px solid gainsboro;
+        border-radius: 15px;
+    }
+  }
+
+
+

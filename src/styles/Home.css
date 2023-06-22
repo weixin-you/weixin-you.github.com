@@ -1,0 +1,141 @@
+
+body {
+    background-color: #ffffff
+}
+.changes_you_can_make {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: top;
+    min-width: 80vw;
+}
+.changes_you_can_make div {
+    height: 50vh;
+    width: 20vw;
+    background-color: #0000FF;
+    border-radius: 5px;
+    color: white;
+}
+
+.changes_you_can_make img {
+    width:100%;
+    border-radius: 5px;
+}
+
+.changes_you_can_make .card1 p {
+    display: flex;
+    justify-content: center;
+}
+
+.changes_you_can_make .card1 p .icon{
+    color: yellow;
+    font-size: 2rem;
+}
+
+.changes_you_can_make h3 {
+    text-align:center
+}
+
+.changes_you_can_make p {
+    text-align: center;
+    padding: 1rem;
+}
+
+.mission {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-around;
+}
+.mission div, .mission img {
+    width: 40vw;
+    border-radius: 5px;
+}
+
+.mission_p1{
+    margin-top: 0;
+}
+
+.mission_desc {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.helpus {
+    margin-top: 6rem;
+}
+
+.helpus h2 {
+    text-align: center;
+}
+.helpus .items {
+    display: flex;
+    flex-shrink: 1;
+    justify-content: space-around;
+}
+.helpus .items div{
+    width: 20rem;
+    height: 20rem;
+    margin: 1rem;
+    border-radius: 5px;
+    padding-top: 2rem;
+}
+
+.helpus .items .item1{
+    background-color: blue;
+    color: white;
+}
+
+.helpus .items .item2{
+    background-color: red;
+    color: white;
+}
+
+.helpus .items .item3{
+    background-color: purple;
+    color: white;
+}
+
+.helpus .items div h3 {
+    text-align: center;
+}
+
+.helpus .items div p {
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .helpus .items {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .helpus .items div {
+        margin-top: 1rem;
+        width: 100%;
+    }
+    .mission {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .mission div {
+        width: 100%;
+    }
+    .mission div p {
+        padding: 1rem;
+    }
+    .mission img {
+        width: 95%;
+        margin: auto;
+    }
+    .changes_you_can_make {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .changes_you_can_make div {
+        width: 95%;
+        height: 40rem;
+        margin-bottom: 1rem;
+    }
+}
+
