@@ -7,14 +7,17 @@ const ImageSlider = () => {
     const textsImages = [
        {
         text:"Better World For Everyone",
+        text2: "Help the individuals affected",
         image: feed_kids
        },
        {
-        text:"Every Donations Helps",
+        text:"Every Donation Helps",
+        text2: "Donate now",
         image: seated_kids
        },
        {
         text: "Hindu Society of Ottawa-Carleton",
+        text2: "A non-religious, non-profitable, non-political organization",
         image: playchess
        }
     ]
@@ -42,7 +45,8 @@ const ImageSlider = () => {
                     alt={`Image and text ${index + 1}`}
                    
                 />
-                <h2 >{item.text}</h2>
+                <h2>{item.text}</h2>
+                <p>{item.text2}</p>
             </div>
           
         ))}

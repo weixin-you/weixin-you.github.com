@@ -21,6 +21,9 @@
   opacity: 1;
 }
 
+.image-slider > div.active p {
+  opacity: 1;
+}
 .image-slider > div img {
   position: absolute;
   top: 0;
@@ -45,7 +48,20 @@
   font-size: 4rem;
   width: 90%;
   padding: 1rem;
-  /* position: relative;  */
+} 
+
+.image-slider > div p {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  color: white;
+  text-align: justify;
+  opacity: 0;
+  font-size: 1.5rem;
+  width: 90%;
+  padding: 1rem;
 } 
 
 @keyframes zoomInOut {
