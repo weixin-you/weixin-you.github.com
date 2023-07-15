@@ -1,0 +1,48 @@
+
+main {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+main div.item {
+    display: flex;
+    width: 100%;
+    column-gap: 1rem;
+    padding-top: 3rem;
+    padding-bottom:3rem;
+}
+
+.item:nth-child(even) { 
+    background: whitesmoke; 
+}
+
+.image-progressbar{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    margin-left: 7rem;
+    align-self: center;
+    padding: 1rem;
+}
+
+.image-progressbar p{
+    width: 16rem;
+
+}
+
+.description {
+    width: 60vw;
+    padding: 1rem;
+}
+
+.image-progressbar img {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+ul li {
+    padding: 5px;
+}

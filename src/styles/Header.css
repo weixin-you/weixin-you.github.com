@@ -23,8 +23,41 @@
     font-weight: 700;
     padding-left: 0;
 }
+/* dropdown */
+.dropdown {
+    position: relative;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    font-size: 12px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown .dropdown-link {
+    text-decoration: none;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
 
-.linkhome {
+  .dropdown-icon {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+.linkhome, .linkprojects {
     text-decoration: none;
 }
 

@@ -1,7 +1,9 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import logo from '../images/logo.png'
+import {RiArrowDropDownLine} from 'react-icons/ri'
 import '../styles/Header.css'
+
 function Header() {
   return (
     <div className='navigation'>
@@ -11,7 +13,16 @@ function Header() {
             <li><Link className='linkhome' to='/'>HOME</Link></li>
             <li>ABOUT US</li>
             <li>PARTNERS</li>
-            <li>PROJECTS</li>
+            {/* <li><Link className='linkprojects' to='/projects'>PROJECTS</Link></li> */}
+            <li className="dropdown">
+              <a href="/projects" className="dropdown-link">
+                PROJECTS<span className="dropdown-icon"><RiArrowDropDownLine /></span>
+              </a>
+              <div className="dropdown-content">
+                <a href="/past-projects">Past Projects</a>
+                <a href="/ongoing-projects">Ongoing Projects</a>
+              </div>
+           </li>
           </ul>
         </nav>
         
