@@ -12,7 +12,7 @@ import mission from '../images/mission.jpg'
 import sevalaya from '../images/sevalaya.jpg'
 import srk from '../images/srk.png'
 import uttar from '../images/uttar.jpg'
-import '../styles/Projects.css'
+import '../styles/OngoingProjects.css'
 import ProgressBar from '../components/ProgressBar'
 function Projects() {
   return (
