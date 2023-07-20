@@ -59,15 +59,19 @@ opacity: 1;
 
 
 @media only screen and (max-width: 600px) {
-    .footer-items {
+    div .footer-items {
         display: flex;
         flex-wrap: wrap;
-        height: 50vh;
+        height: 100%;
     }
 
     .footer-items div {
         text-align: left;
         width: 100%;
         padding: 5px;
+    }
+
+    div.item2 {
+        padding: 1rem;
     }
 }

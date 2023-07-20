@@ -21,6 +21,9 @@
   opacity: 1;
 }
 
+.image-slider > div.active p {
+  opacity: 1;
+}
 .image-slider > div img {
   position: absolute;
   top: 0;
@@ -33,7 +36,7 @@
   animation: zoomInOut 15s infinite;
 }
 
-.image-slider > div h2 {
+div h2.one, div h2.two {
   position: absolute;
   top: 10%;
   left: 50%;
@@ -45,8 +48,51 @@
   font-size: 4rem;
   width: 90%;
   padding: 1rem;
-  /* position: relative;  */
 } 
+
+div p.one, div p.two {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  color: white;
+  text-align: justify;
+  opacity: 0;
+  font-size: 1.5rem;
+  width: 90%;
+  padding: 1rem;
+} 
+
+div h2.three {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  color: rgb(91, 89, 89);
+  text-align: justify;
+  opacity: 0;
+  font-size: 4rem;
+  width: 90%;
+  padding: 1rem;
+  text-align: center;
+} 
+
+div p.three {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  color: gray;
+  text-align: justify;
+  opacity: 0;
+  font-size: 1.5rem;
+  width: 90%;
+  padding: 1rem;
+  text-align: center;
+}
 
 @keyframes zoomInOut {
   0%,
@@ -68,5 +114,13 @@
   }
   .image-slider > div.active h2 {
     font-size: 3rem;
+  }
+
+  div h2.one, div p.one, div h2.two, div p.two {
+    text-align: center;
+  }
+
+  div p.one, div p.two, div p.three {
+    top: 40%
   }
 }

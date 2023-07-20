@@ -1,0 +1,98 @@
+.header-past {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30vh;
+    text-align: center;
+    background-image: url('../images/project-past.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* padding-top: 8rem; */
+}
+.header-past h1 {
+    color: white;
+}
+main {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+main div.item {
+    display: flex;
+    width: 100%;
+    column-gap: 1rem;
+    padding-top: 3rem;
+    padding-bottom:3rem;
+}
+
+.item:nth-child(even) { 
+    background: whitesmoke; 
+}
+
+.image-progressbar{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    margin-left: 7rem;
+    align-self: center;
+    padding: 1rem;
+}
+
+.image-progressbar p{
+    width: 16rem;
+
+}
+
+.description {
+    width: 60vw;
+    padding: 1rem;
+}
+
+.image-progressbar img {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+ul li {
+    padding: 5px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    main {
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+    }
+    main div.item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        background-color: whitesmoke;
+        border-radius: 5px;
+    }
+
+    main div.item:hover {
+        background-color: wheat;
+        color: black;
+    }
+
+    .image-progressbar {
+        justify-content: center;
+        align-items: center; 
+    }
+
+    div .image-progressbar {
+        margin-left: 0;
+    }
+
+    div.description {
+        width: 90%;
+    }
+}
