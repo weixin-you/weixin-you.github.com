@@ -53,7 +53,12 @@ class App extends React.Component {
                   </div>
                   <h4 className="volunteer_text">DONATE USING PAYPAL/CARD</h4>
                   <p className="lorem_text">Click link below</p>
-                  <input className="ppdonatebtn" type="button" value="DONATE NOW" />
+                    <form action="https://www.paypal.com/donate" method="post" target="_top">
+<input type="hidden" name="hosted_button_id" value="B8QM8NGATV6GU" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0"  name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+<img alt="" border="0" src="https://www.paypal.com/en_CA/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
                 </div>
               </div>
               <div className="col-lg-4">
