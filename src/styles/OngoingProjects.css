@@ -1,4 +1,19 @@
-
+.header-ongoing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30vh;
+    text-align: center;
+    background-image: url('../images/ongoing-projects.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* padding-top: 8rem; */
+}
+.header-ongoing h1 {
+    color: white;
+}
 main {
     margin-top: 5rem;
     display: flex;

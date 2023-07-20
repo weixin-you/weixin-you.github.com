@@ -14,10 +14,14 @@ import srk from '../images/srk.png'
 import uttar from '../images/uttar.jpg'
 import '../styles/OngoingProjects.css'
 import ProgressBar from '../components/ProgressBar'
+import Footer from '../components/Footer'
 function Projects() {
   return (
     <>
         <Header />
+        <div className='header-ongoing'>
+            <h1 >Ongoing Projects</h1>
+        </div>
         <main>
             <div className='item'>
                 <div className='image-progressbar'>
@@ -258,6 +262,7 @@ function Projects() {
             </div>
 
         </main>
+        <Footer />
     </>
     
   )

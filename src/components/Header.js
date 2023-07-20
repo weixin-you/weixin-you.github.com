@@ -12,10 +12,18 @@ function Header() {
           <ul className='header-nav'>
             <li><Link className='linkhome' to='/'>HOME</Link></li>
             <li>ABOUT US</li>
-            <li>PARTNERS</li>
+            <li className="dropdown">
+              <a href="/partners" className="dropdown-link">
+                PARTNERS<span className="dropdown-icon"><RiArrowDropDownLine /></span>
+              </a>
+              <div className="dropdown-content">
+                <a href="/charities-supported">Canadian Charities Supported</a>
+                <a href="/partners">Approved HSOC Partners Outside Canada</a>
+              </div>
+           </li>
             {/* <li><Link className='linkprojects' to='/projects'>PROJECTS</Link></li> */}
             <li className="dropdown">
-              <a href="/projects" className="dropdown-link">
+              <a href="/ongoing-projects" className="dropdown-link">
                 PROJECTS<span className="dropdown-icon"><RiArrowDropDownLine /></span>
               </a>
               <div className="dropdown-content">

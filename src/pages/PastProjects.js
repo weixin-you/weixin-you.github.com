@@ -18,10 +18,14 @@ import vidya from '../images/Vidya-Jyoti-School.jpg'
 import yogoda from '../images/YOGODA.jpg'
 import '../styles/PastProjects.css'
 import ProgressBar from '../components/ProgressBar'
+import Footer from '../components/Footer'
 function PastProjects() {
   return (
     <>
         <Header />
+        <div className='header-past'>
+            <h1>Past Projects</h1>
+        </div>
         <main>
             <div className='item'>
                 <div className='image-progressbar'>
@@ -46,6 +50,7 @@ function PastProjects() {
                 </div>
 
                 <div className='description'>
+                <h2>ARYA SAMAJ, GANDHIDHAM, GUJARAT</h2>   
                 <p>Operational Support of poor students with a focus on shelter, education, and health</p>
                 </div>
             </div>
@@ -59,6 +64,7 @@ function PastProjects() {
                 </div>
 
                 <div className='description'>
+                <h2>B.K.L. WALAWALKAR HOSPITAL DIAGNOSTIC & RESEARCH CENTRE (SHRI VITHALRAO JOSHI CHARITIES TRUST)</h2>    
                 <p>The Hindu Society has been partnering with the B.K.L. Walawalkar Hospital for more than 20 years now, and has been participating in the following projects for several years:</p>
                     <ul>
                        <li>Tribal Health</li>
@@ -244,7 +250,7 @@ function PastProjects() {
 
                 <div className='description'>
                     <h2>VIDYA JYOTI SCHOOL, PUNE, MH</h2>
-                    <p>Education for poor children with learning disability</p>
+                    <p>Education for poor children with learning disability.</p>
                 </div>
             </div>
 
@@ -266,6 +272,7 @@ function PastProjects() {
             </div>
 
         </main>
+        <Footer />
     </>
     
   )
