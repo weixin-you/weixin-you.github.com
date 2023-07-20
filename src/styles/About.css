@@ -1,0 +1,158 @@
+/* Styles for the content section */
+.about-content {
+    padding-top: 2em;
+    padding-bottom: 5em;
+}
+
+/* Styles for the section container */
+.section-container {
+    display: flex;
+    flex-direction: row;
+    padding-right: 11em;
+    margin: 6em;
+    margin-left: 1em;
+}
+
+/* Styles for the h2 headings */
+h2 {
+    font-size: 30px;
+    position: relative;
+}
+
+/* Styles for the line after h2 headings */
+.section-container>div>h2::after {
+    content: "";
+    position: absolute;
+    left: 12em;
+    bottom: -10px;
+    width: 20%;
+    height: 1px;
+    background-color: yellow;
+}
+
+/* Styles for the section container's div elements */
+.section-container>div {
+    text-align: center;
+    margin-left: 10px;
+}
+
+/* Styles for the description text */
+.description {
+    margin: 5px;
+    font-size: medium;
+}
+
+/* Styles for the images */
+.image {
+    justify-content: flex-end;
+}
+
+/* Styles for the images within the container */
+.image img {
+    max-width: 190%;
+    height: auto;
+    border-radius: 1%;
+}
+
+/* Styles for the hover effect on images */
+.image img:hover {
+    box-sizing: border-box;
+    box-shadow: 0px 5px 10px 0px #07000b;
+}
+
+/* Styles for the main container */
+.container {
+    margin: 2em;
+    padding-top: 1em;
+    display: flex;
+    align-items: flex-start;
+    background-color: aliceblue;
+}
+
+/* Styles for the div elements within the container */
+.container>div {
+    text-align: center;
+}
+
+/* Styles for the unordered lists within the container */
+.container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Styles for the committee items within the container */
+.container .committee ul li {
+    flex-basis: calc(34.33% - 15px);
+    /* Set the width of each committee box */
+}
+
+/* Styles for the council items within the container */
+.container .council ul li {
+    flex-basis: calc(40% - 1px);
+    /* Set the width of each council box */
+}
+
+/* Styles for all list items within the container */
+.container ul li {
+    margin: 50px 20px 20px 20px;
+    font-weight: 180;
+    color: rgb(14, 14, 14);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    box-shadow: 0px 5px 5px 0px #baba23;
+    padding: 10px;
+    /* Add padding for spacing */
+    margin-bottom: 10px;
+    /* Add spacing between boxes */
+    text-align: center;
+    /* Center the text horizontally */
+}
+
+/* Styles for the hover effect on list items within the container */
+.container ul li:hover {
+    font-weight: 400;
+    box-shadow: 2px 5px 5px 2px #baba23;
+}
+
+/* Media query for screens smaller than 768px */
+@media (max-width: 767px) {
+    .section-container {
+        flex-direction: column;
+        padding-right: 0;
+    }
+
+    .section-container>div {
+        margin-left: 0;
+    }
+
+    .image {
+        justify-content: center;
+    }
+
+    .image img {
+        max-width: 100%;
+    }
+}
+
+/* Media query for screens between 768px and 1023px */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .section-container {
+        flex-direction: column;
+        padding-right: 0;
+    }
+}
+
+/* Media query for screens larger than 1023px */
+@media (min-width: 1024px) {
+    .section-container {
+        flex-direction: row;
+        padding-right: 11em;
+    }
+}
