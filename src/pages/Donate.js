@@ -51,7 +51,7 @@ class App extends React.Component {
                   <div className="icon_1">
                     <img src={card} style={{ width: '180px', height: '160px' }} alt="Card" />
                   </div>
-                  <h4 className="volunteer_text">DONATE USING DEBIT/CREDIT CARD</h4>
+                  <h4 className="volunteer_text">DONATE USING PAYPAL/CARD</h4>
                   <p className="lorem_text">Click link below</p>
                   <input className="ppdonatebtn" type="button" value="DONATE NOW" />
                 </div>
