@@ -13,22 +13,21 @@ function Header() {
             <li><Link className='linkhome' to='/'>HOME</Link></li>
             <li><Link className='linkAbout' to='/about'>ABOUT US</Link></li>
             <li className="dropdown">
-              <a href="/partners" className="dropdown-link">
+              <Link to="/partners" className="dropdown-link">
                 PARTNERS<span className="dropdown-icon"><RiArrowDropDownLine /></span>
-              </a>
+              </Link>
               <div className="dropdown-content">
-                <a href="/charities-supported">Canadian Charities Supported</a>
-                <a href="/partners">Approved HSOC Partners Outside Canada</a>
+                <Link to="/charities-supported">Canadian Charities Supported</Link>
+                <Link to="/partners">Approved HSOC Partners Outside Canada</Link>
               </div>
            </li>
-            {/* <li><Link className='linkprojects' to='/projects'>PROJECTS</Link></li> */}
             <li className="dropdown">
-              <a href="/ongoing-projects" className="dropdown-link">
+              <Link to="/ongoing-projects" className="dropdown-link">
                 PROJECTS<span className="dropdown-icon"><RiArrowDropDownLine /></span>
-              </a>
+              </Link>
               <div className="dropdown-content">
-                <a href="/past-projects">Past Projects</a>
-                <a href="/ongoing-projects">Ongoing Projects</a>
+                <Link to="/past-projects">Past Projects</Link>
+                <Link to="/ongoing-projects">Ongoing Projects</Link>
               </div>
            </li>
           </ul>

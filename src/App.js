@@ -12,9 +12,9 @@ import About from './pages/About'
 function App() {
   return  (
 
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route exact path="/" element={<Home />} />
         <Route path="/donate" element={<Donate />} />
         <Route path="/about" element={<About />} />
         <Route path="/ongoing-projects" element={<OngoingProjects />} />
