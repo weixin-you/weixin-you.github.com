@@ -6,8 +6,12 @@ import background from "../images/caring.jpg";
 
 const About = () => {
   return (
-    <div className="about-us">
+    <>
       <Header />
+<div className="about-us">
+      <div className='header-partners'>
+            <h1 >About Us</h1>
+        </div>
       <div className="about-content">
         <div className="section-container">
           <div>
@@ -55,8 +59,9 @@ const About = () => {
           </div>
         </div>
       </div>
+      </div>
       <Footer />
-    </div>
+    </>
   );
 };
 

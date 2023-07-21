@@ -11,7 +11,7 @@ function Header() {
         <nav>
           <ul className='header-nav'>
             <li><Link className='linkhome' to='/'>HOME</Link></li>
-            <li><Link className='linkAbout' to='/about'>ABOUT US</Link></li>
+            <li><Link className='linkabout' to='/about'>ABOUT US</Link></li>
             <li className="dropdown">
               <Link to="/partners" className="dropdown-link">
                 PARTNERS<span className="dropdown-icon"><RiArrowDropDownLine /></span>
