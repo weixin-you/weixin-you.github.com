@@ -7,6 +7,7 @@ import OngoingProjects from './pages/OngoingProjects'
 import PastProjects from './pages/PastProjects'
 import Partners from './pages/Partners'
 import CharitiesSupported from './pages/CharitiesSupported'
+import About from './pages/About'
 
 function App() {
   return  (
@@ -15,6 +16,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/donate" element={<Donate />} />
+        <Route path="/about" element={<About />} />
         <Route path="/ongoing-projects" element={<OngoingProjects />} />
         <Route path="/past-projects" element={<PastProjects />} />
         <Route path="/partners" element={<Partners />} />
