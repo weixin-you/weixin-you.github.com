@@ -136,9 +136,6 @@ input.linkdonate {
         background-color: blueviolet;
         color: white;
     }
-    ul:last-child {
-       margin-bottom: 0;
-    }
 
     .donate-btn-container {
         width: 100%;
