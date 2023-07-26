@@ -113,6 +113,7 @@ input.linkdonate {
         flex-direction: column;
         justify-content: center;
         margin: auto;
+        margin-bottom: 3rem;
         overflow: hidden;
     }
 
@@ -131,11 +132,16 @@ input.linkdonate {
         padding-bottom: 1rem;
     }
 
+    .header-nav:last-child{
+        margin-bottom: 0;
+    }
+
 
     .navigation ul li:hover {
         background-color: blueviolet;
         color: white;
     }
+
 
     .donate-btn-container {
         width: 100%;
