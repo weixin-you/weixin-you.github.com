@@ -19,7 +19,7 @@ function Partners() {
     <>
         <Header />
         <div className='header-partners'>
-            <h1 >Approved HSOC Partners Outside Canada (Non-Qualified Donnes)</h1>
+            <h1 >Approved HSOC Partners Outside Canada (Non-Qualified Donees)</h1>
         </div>
         <main className='main-part'>
             <div className='charity-item'>
@@ -61,7 +61,7 @@ function Partners() {
 
                 <div className='charity-description'>
                     <h2>B.K.L. WALAWALKAR HOSPITAL DIAGNOSTIC & RESEARCH CENTRE</h2>
-                    <p>TB.K.L. Walawalkar Hospital Diagnostic & Research Centre offers basic & state-of-the-art health services to the poor & needy people at very affordable rates.</p>
+                    <p>B.K.L. Walawalkar Hospital Diagnostic & Research Centre offers basic & state-of-the-art health services to the poor & needy people at very affordable rates.</p>
                     <p>The hospital is run by the Shri Vithalrao Joshi Charities Trust. The Aim of Shri Vithalrao Joshi charities Trust is to provide human beings basic needs, 
                         such as food, water, clothing, shelter, education, and medical aid for his physical survival discourse for his self-realisation. 
                         The organization has been working for the last 30+ years for the social & spiritual upliftment of the poor. The areas of activity 
@@ -93,7 +93,7 @@ function Partners() {
                 </div>
 
                 <div className='charity-description'>
-                    <h2>NNATIONAL YOUTH SERVICE ACTION AND SOCIAL DEVELOPMENT RESEARCH INSTITUTE</h2>
+                    <h2>NATIONAL YOUTH SERVICE ACTION AND SOCIAL DEVELOPMENT RESEARCH INSTITUTE</h2>
                     <p>The National Youth Service Action and Social Development Research Institute (NYSASDRI) is a non-profit, 
                         non-governmental organization based in Odisha, India. It aims at facilitating the establishment of a just 
                         and healthy society in which the poorest of the poor have the power to attain a better quality of life with equal access to, and control over resources.</p>
@@ -155,7 +155,7 @@ function Partners() {
                 </div>
 
                 <div className='charity-description'>
-                    <h2>RRAMAKRISHNA MISSION</h2>
+                    <h2>RAMAKRISHNA MISSION</h2>
                     <p>Ramakrishna Mission is a Hindu religious and spiritual organization that forms the worldwide Vedanta Movement. The RK Math 
                         and the RK Mission are the two key organizations that direct the work of the socio-religious Ramakrishna Movement.</p>
                     <a href="https://belurmath.org/">Visit Our Website...</a>   
@@ -204,7 +204,7 @@ function Partners() {
                 </div>
 
                 <div className='charity-description'>
-                    <h2>SUTTARAKHAND DISASTER RELIEF</h2>
+                    <h2>UTTARAKHAND DISASTER RELIEF</h2>
                     <p>In the last few years, Uttarakhand has faced a lot of flooding that has claimed many lives. Their team of volunteers assisted,
                          not just in providing food, but accommodation and rescue. After the flooding occurs, the disaster relief team rebuilds all 
                          that was lost. Because of Uttarakhand’s rain and bad drainage, water levels can rise as high as 2m in just a matter of hours.</p>

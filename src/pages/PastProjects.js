@@ -99,7 +99,7 @@ function PastProjects() {
                 </div>
 
                 <div className='description'>
-                    <h2>NJAGRITI SCHOOL FOR BLIND GIRLS, PUNE, MS</h2>
+                    <h2>JAGRITI SCHOOL FOR BLIND GIRLS, PUNE, MS</h2>
                     <p>Operational Support for the school covering food, nutritional supplements, clothes and bedding, education, medical, books, Braille Publishing Center, seminars, and workshops.</p>
                 </div>
             </div>
@@ -222,7 +222,7 @@ function PastProjects() {
 
                 <div className='description'>
                     <h2>SEWA BHARATI, BHOPAL, UP</h2>
-                    <p>WTo provide shelter to destitute and orphan children aged 0‐6 years, special care for mentally retarded/physically challenged children of orphan categories, and to rehabilitate the aforesaid children in a family through legal adoption.</p>
+                    <p>To provide shelter to destitute and orphan children aged 0‐6 years, special care for mentally retarded/physically challenged children of orphan categories, and to rehabilitate the aforesaid children in a family through legal adoption.</p>
                 </div>
             </div>
 

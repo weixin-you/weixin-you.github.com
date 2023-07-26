@@ -76,7 +76,7 @@ function CharitiesSupported() {
 
                 <div className='charity-description'>
                     <h2>CANADIAN CANCER SOCIETY, OTTAWA</h2>
-                    <p>TThe Canadian Cancer Society is a community-based charitable organization whose mission is to eliminate cancer and enhance the 
+                    <p>The Canadian Cancer Society is a community-based charitable organization whose mission is to eliminate cancer and enhance the 
                         quality of life of those who have the disease. They fund the most promising cancer research, advocate for health-protecting policies,
                          and provide trusted information, resources, and support for every Canadian affected by cancer.</p>
                     <a href="https://www.cancer.ca/">Visit Our Website...</a> 
@@ -191,7 +191,7 @@ function CharitiesSupported() {
                 <div className='charity-description'>
                     <h2>HABITAT FOR HUMANITY</h2>
                     <p>
-                    SHabitat for Humanity is an organization that brings communities together to help families build strength, stability, and 
+                    Habitat for Humanity is an organization that brings communities together to help families build strength, stability, and 
                     self-reliance through affordable homeownership. Their main vision is that everyone should have a decent and affordable
                      place to live. They have impacted countless families in the Greater Ottawa region by building safe and stable households.
                     </p>
@@ -208,7 +208,7 @@ function CharitiesSupported() {
 
                 <div className='charity-description'>
                     <h2>JINDAL FOUNDATION, OTTAWA</h2>
-                    <p>TA charitable organization with the humanitarian objective of serving the poor and downtrodden in various fields. True to the
+                    <p>A charitable organization with the humanitarian objective of serving the poor and downtrodden in various fields. True to the
                          ideals and values of its chief architect and founder, Dr. Sitaram Jindal, the foundation provides basic needs across various 
                          sections of society including education, healthcare, and rural development.</p>
                     <a href="https://www.charitydata.ca/charity/jindal-foundation/890939887RR0001/">Visit Our Website...</a>

@@ -137,7 +137,7 @@ function Projects() {
                 </div>
 
                 <div className='description'>
-                    <h2>NRASA – RAMANA SUNRITYA AALAYA</h2>
+                    <h2>RASA – RAMANA SUNRITYA AALAYA</h2>
                     <p>Current projects include Life Skills Training, Performance Training, Sensory Training to promote financial empowerment for adults with special needs.</p>
                 </div>
             </div>
@@ -256,7 +256,7 @@ function Projects() {
                 </div>
 
                 <div className='description'>
-                    <h2>SUTTARAKHAND DISASTER RELIEF</h2>
+                    <h2>UTTARAKHAND DISASTER RELIEF</h2>
                     <p>In the last few years, Uttarakhand has faced a lot of flooding that has claimed many lives. Their team of volunteers assisted, not just in providing food, but accommodation and rescue. After the flooding occurs, the disaster relief team rebuilds all that was lost. Because of Uttarakhand’s rain and bad drainage, water levels can rise as high as 2m in just a matter of hours.</p>
                 </div>
             </div>
