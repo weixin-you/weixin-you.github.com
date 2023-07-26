@@ -134,7 +134,7 @@ body {
 
     .changes_you_can_make div {
         width: 95%;
-        height: 40rem;
+        height: auto;
         margin-bottom: 1rem;
     }
 }

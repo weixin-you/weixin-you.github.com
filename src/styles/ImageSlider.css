@@ -70,7 +70,8 @@ div h2.three {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 2rem;
-  color: rgb(91, 89, 89);
+  /* color: rgb(91, 89, 89); */
+  color: peru;
   text-align: justify;
   opacity: 0;
   font-size: 4rem;
@@ -85,7 +86,7 @@ div p.three {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 2rem;
-  color: gray;
+  color: blue;
   text-align: justify;
   opacity: 0;
   font-size: 1.5rem;
@@ -113,7 +114,11 @@ div p.three {
     height: auto;
   }
   .image-slider > div.active h2 {
-    font-size: 3rem;
+    font-size: 1.5rem;
+  }
+
+  .image-slider > div.active p {
+    font-size: 1.1rem;
   }
 
   div h2.one, div p.one, div h2.two, div p.two {
@@ -121,6 +126,11 @@ div p.three {
   }
 
   div p.one, div p.two, div p.three {
-    top: 40%
+    top: 20%
+  }
+
+  div p.three {
+    top: 25%;
+    color: brown;
   }
 }
