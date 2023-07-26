@@ -68,31 +68,27 @@ nav ul li:hover, a.linkhome:hover, a.dropdown-link:hover {
     text-decoration: none;
 }
 
-.donatebtn {
-    min-width: 12rem;
-    height: 6vh;
-    font-size: 1.2rem;
-    font-weight: 700;
+.donate-btn-container{
     background-color: blue;
-    color: white;
-    border: none;
-    border-radius: 3px;
-    text-decoration: none;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 11rem;
+    height: 3rem;
+    border-radius: 5px;
 }
 
-.donatebtn:hover {
+.donate-btn-container:hover {
     background-color: purple;
 }
 
-.donatebtn:active{
+.donate-btn-container:active{
     background-color: red;
 }
 
 input.linkdonate {
     display: inline-block;
     color: white;
-    padding-top: 1rem;
     border:none;
     background-color: transparent;
     font-size: 1.2rem;
@@ -113,47 +109,48 @@ input.linkdonate {
  
     .navigation {
         display: flex;
+        width: 90%;
         flex-direction: column;
         justify-content: center;
+        margin: auto;
+        overflow: hidden;
     }
 
-    .navigation img.logo {
-        display: inline-block;
-  
-    }
 
     .navigation ul {
-        display: flex;
         flex-direction: column;
-        justify-content: space-between;
-        align-content: space-around;
-        width: 100vw;
-        padding-left: 0;
+        width: 100%;
     }
-    .navigation ul li {
+    
+    .navigation ul li{
         background-color: azure;
-        width: 90%;
+        width: 90vw;
         margin-bottom: 1rem;
         text-align: left;
         padding-top: 1rem;
         padding-bottom: 1rem;
     }
 
+
     .navigation ul li:hover {
         background-color: blueviolet;
         color: white;
     }
+    ul:last-child {
+       margin-bottom: 0;
+    }
 
-    .donatebtn {
-        width: 98%;
-        text-align: left;
-        align-self: flex-start;
-        margin-top: -1rem;
-        box-sizing: border-box;
+    .donate-btn-container {
+        width: 100%;
+        background-color: blue;
+        justify-content: flex-start;
+        border-radius: 0;
+        border-radius: 5px;
+        margin-left: -8px;
     }
 
     .search{
-        width: 96%;
+        width: 98%;
         text-align: left;
         align-self: flex-start;
         margin-top: 1rem;
@@ -161,7 +158,11 @@ input.linkdonate {
         border: 2px solid gainsboro;
         border-radius: 15px;
     }
-  }
+
+    nav {
+        margin: auto
+    }
+}
 
 
 

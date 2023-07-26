@@ -34,10 +34,15 @@ function Header() {
         </nav>
         
   
-      
-        <Link to='/donate' className='donatebtn'>
+        
+        {/* <Link to='/donate' className='donatebtn'>
           <input type='button' value='DONATE NOW' className='linkdonate'/>
-        </Link>
+        </Link> */}
+        <div className='donate-btn-container'>
+          <Link to='/donate'>
+            <input type='button' value='DONATE NOW' className='linkdonate'/>
+          </Link>
+        </div>
        
         <input className='search' placeholder='SEARCH...'/>
     </div>
