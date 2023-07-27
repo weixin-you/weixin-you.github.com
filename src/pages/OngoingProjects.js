@@ -184,7 +184,7 @@ function Projects() {
                 </div>
 
                 <div className='description'>
-                    <h2>RRAMAKRISHNA MISSION</h2>
+                    <h2>RAMAKRISHNA MISSION</h2>
                     <ul>
                     <p>(Delhi)</p>
                         <li>Provision of Operational Support of providing medical services to poor people with a focus on prevention, education, consultation, and treatment and providing medical care and medicines to poor people especially belonging to scheduled castes in the outlying areas of Delhi, who do not have sufficient access to medical care.</li>
