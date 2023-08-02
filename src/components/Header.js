@@ -1,13 +1,48 @@
-import React from 'react'
-import {Link} from 'react-router-dom'
+import React, {useState} from 'react'
+import {Link, useNavigate} from 'react-router-dom'
 import logo from '../images/logo.png'
 import {RiArrowDropDownLine} from 'react-icons/ri'
 import '../styles/Header.css'
 
 function Header() {
+  const [searchQuery, setSearchQuery] = useState('');
+  const navigate = useNavigate();
+
+  const handleSearch = (enterValue) => {
+    // Check if the searchQuery matches any webpage here.
+    // You can implement the search logic based on your data or API calls.
+    // For demonstration, let's assume you have a list of webpages as an array.
+    const webpages = [
+      { path: '/', title: 'HOME' },
+      { path: '/about', title: 'ABOUT US' },
+      { path: '/partners', title: 'PARTNERS' },
+      { path: '/ongoing-projects', title: 'PROJECTS' },
+      // Add other webpages as needed...
+    ];
+
+    const foundPage = webpages.find((page) => page.title.toLowerCase() === enterValue.toLowerCase());
+
+    if (foundPage) {
+      // If a match is found, navigate to the corresponding webpage.
+      navigate(foundPage.path);
+    } else {
+      // If no match is found, do nothing or show an error message.
+      console.log('Webpage not found');
+    }
+  };
+
+  const handleKeyPress = (e) => {
+    if (e.key === 'Enter') {
+      // Fire the search event when the Enter key is pressed.
+      handleSearch();
+    }
+  };
   return (
     <div className='navigation'>
-        <Link to='/'> <img src={logo} className='logo'/> </Link>
+        <div className='image-and-name'>
+          <Link to='/'> <img src={logo} className='logo'/> </Link>
+          <span className='img-name'>HSOC</span>
+        </div>
         <nav>
           <ul className='header-nav'>
             <li><Link className='linkhome' to='/'>HOME</Link></li>
@@ -44,7 +79,7 @@ function Header() {
           </Link>
         </div>
        
-        <input className='search' placeholder='SEARCH...'/>
+        <input className='search' onKeyDown={(e) => handleSearch(e.target.value)} placeholder='SEARCH...'/>
     </div>
   )
 }

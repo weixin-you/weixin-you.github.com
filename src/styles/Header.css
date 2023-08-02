@@ -1,3 +1,13 @@
+.image-and-name{
+    display: flex;
+    flex-direction: column;
+}
+
+.img-name {
+    font-weight: 600;
+    letter-spacing: 4px;
+    font-size: 1.1rem;
+}
 .navigation {
     width: 95%;
     display: flex;
