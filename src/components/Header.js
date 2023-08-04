@@ -17,6 +17,7 @@ function Header() {
       { path: '/about', title: 'ABOUT US' },
       { path: '/partners', title: 'PARTNERS' },
       { path: '/ongoing-projects', title: 'PROJECTS' },
+      { path: '/donate', title: 'DONATE' },
       // Add other webpages as needed...
     ];
 
@@ -41,7 +42,7 @@ function Header() {
     <div className='navigation'>
         <div className='image-and-name'>
           <Link to='/'> <img src={logo} className='logo'/> </Link>
-          <span className='img-name'>HSOC</span>
+          <Link to='/'> <span className='img-name'>HSOC</span> </Link>
         </div>
         <nav>
           <ul className='header-nav'>

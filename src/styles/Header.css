@@ -7,6 +7,12 @@
     font-weight: 600;
     letter-spacing: 4px;
     font-size: 1.1rem;
+  
+}
+
+span.img-name  {
+    display:inline-block;
+    text-decoration: none;
 }
 .navigation {
     width: 95%;
@@ -36,6 +42,9 @@ nav ul li:hover, a.linkhome:hover, a.dropdown-link:hover {
     font-size: 1.1rem;
     font-weight: 700;
     padding-left: 0;
+}
+.header-nav li a.linkabout:hover {
+    color: blue;
 }
 /* dropdown */
 .dropdown {
