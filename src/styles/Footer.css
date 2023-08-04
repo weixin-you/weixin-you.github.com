@@ -57,6 +57,16 @@ ul li.email a:hover{
 opacity: 1;
 }
 
+li a.downloadlink {
+    text-decoration: none;
+    color: white;
+}
+
+li a.downloadlink:hover {
+    text-decoration: underline;
+    color:aqua
+}
+
 
 @media only screen and (max-width: 600px) {
     div .footer-items {

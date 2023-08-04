@@ -4,6 +4,10 @@ import {FcCellPhone} from 'react-icons/fc'
 import {FcHome} from 'react-icons/fc'
 import {AiTwotoneMail} from 'react-icons/ai'
 import {AiFillCaretUp} from 'react-icons/ai'
+import proxyform from '../ProxyForm.pdf'
+import nominationform from '../NominationForm.pdf'
+import constitutionform from '../ConstitutionForm.pdf'
+import donateform from '../HSOCDonationForm.pdf'
 const Footer = () => {
   
 const scrollToTop = () => {
@@ -26,10 +30,10 @@ const scrollToTop = () => {
             <div>
                 <h3>IMPORTANT LINKS</h3>
                 <ul>
-                    <li>Proxy Form</li>
-                    <li>Nomination Form</li>
-                    <li>Constitution</li>
-                    <li>Donation Form</li>
+                    <li> <a className='downloadlink' href={proxyform} download='ProxyForm'>Proxy Form</a></li>
+                    <li> <a className='downloadlink' href={nominationform} download='NominationForm'>Nomination Form</a></li>
+                    <li> <a className='downloadlink' href={constitutionform} download='ConstitutionForm'>Constitution</a></li>
+                    <li> <a className='downloadlink' href={donateform} download='HSOCDonationForm'>Donation Form</a></li>
                 </ul>
             </div>
         </div>
