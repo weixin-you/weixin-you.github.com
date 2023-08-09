@@ -37,13 +37,10 @@ const About = () => {
             <h2>Our Executive Committee</h2>
             <ul>
               <li>Mrs. Mythili Kalyanasundaram <br></br> President <br></br> 613‐599‐0690</li>
-              <li>Mr. Rajan Ramanajum <br></br> Vice President <br></br> 613-739-0823</li>
               <li>Dr. Ramalingom Thavasinadar <br></br> Secretary <br></br> 613‐805-1040</li>
               <li>Mrs. Radha Sankaran <br></br> Joint Secretary <br></br> 613-837-5937</li>
               <li>Mr. Kulothungan Sachithanantham <br></br> Treasurer <br></br> 613-415-4438</li>
-              <li>Mr. Vas Dev Aggarwal <br></br> 613‐727‐1033</li>
               <li>Mr. Panchanadam Athmaraman <br></br> 613-823-1527</li>
-              <li>Dr. Ravinder Jain <br></br> 613-864-9384</li>
               <li>Dr. Thangam Parameswaran <br></br> 613-824-5335</li>
             </ul>
           </div>
@@ -51,10 +48,11 @@ const About = () => {
             <h2>Advisory Council</h2>
             <ul>
               <li>Mr. Mukesh Gupta <br></br> 647-462-6070</li>
-              <li>Kavita Jain <br></br> 613-224-9384</li>
               <li>Dr. Mini Khurana <br></br> 306‐446‐2207 (SK)</li>
-              <li>Nisha Mapara</li>
-              <li>Satish Mallya</li>
+              <li>Dr. Ravinder Jain <br></br> 613-864-9384</li>
+              <li>Nisha Mapara <br></br> 613-882-1294</li>
+              <li>Mr. Pratap Nanoo <br></br> 613-890-3449</li>
+              <li>Mr. Bina Sutarwala <br></br> 613-293-0665</li>
             </ul>
           </div>
         </div>
