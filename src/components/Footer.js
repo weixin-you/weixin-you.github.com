@@ -33,7 +33,9 @@ const scrollToTop = () => {
                     <li> <a className='downloadlink' href={proxyform} download='ProxyForm'>Proxy Form</a></li>
                     <li> <a className='downloadlink' href={nominationform} download='NominationForm'>Nomination Form</a></li>
                     <li> <a className='downloadlink' href={constitutionform} download='ConstitutionForm'>Constitution</a></li>
-                    <li> <a className='downloadlink' href={donateform} download='HSOCDonationForm'>Donation Form</a></li>
+                      <li> <a className='downloadlink' href={donateform} download='HSOCDonationForm'>Donation Form</a></li>
+                      <li> <a className='downloadlink' href={'https://drive.google.com/drive/folders/10LWzu-LnFTkxXmK_dAc0oItfCbBixIDS'} target="_blank" rel="noopener noreferrer">Photo Gallery</a></li>
+
                 </ul>
             </div>
         </div>

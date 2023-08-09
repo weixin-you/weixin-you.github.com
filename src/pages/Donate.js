@@ -12,15 +12,19 @@ import playchess from '../images/playchess.jpg'
 import pdf from '../images/pdf.png'
 import card from '../images/Paypal.png' 
 import pdf1 from '../HSOCDonationForm.pdf';
+import donatebtn from '../images/donate button.jpg'
 
 
 
 class App extends React.Component {
   
+  
   render() {
+   
     
 
     return (
+      
       
       <>
       <Header />
@@ -33,15 +37,14 @@ class App extends React.Component {
                   <div className="icon_1">
                     <img src={paypal} style={{ width: '180px', height: '160px' }} alt="Paypal" />
                     </div>
-                  <h4 className="volunteer_text">DONATE WITH E-TRANSFER</h4>
-                    <p className="lorem_text">Hover link below</p>
-                  
-                    <input className="ppdonatebtn" type="button" value="DONATE NOW"/> 
+                    <h4 className="volunteer_text">DONATE WITH E-TRANSFER</h4>
+                    <button className="ppdonatebtn" type="button">DONATE NOW</button>
+                    <h4 className="volunteer_text">TO<br></br>Treasurer@hindusocietyottawa.com</h4>
                     
-                    <div class="hide"><font Size="+2">E-transfer the donation to treasurer@hindusocietyottawa.com </font></div>
+    
                     
                   </div>
-                  
+              
                 </div>
                 
 
@@ -53,9 +56,9 @@ class App extends React.Component {
                   </div>
                   <h4 className="volunteer_text">DONATE USING PAYPAL/CARD</h4>
                   <p className="lorem_text">Click link below</p>
-                    <form action="https://www.paypal.com/donate" method="post" target="_top">
+                    <form action="https://www.paypal.com/donate" method="post" target="_blank">
 <input type="hidden" name="hosted_button_id" value="B8QM8NGATV6GU" />
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0"  name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+<input type="image" src={donatebtn} border="0"  name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
 <img alt="" border="0" src="https://www.paypal.com/en_CA/i/scr/pixel.gif" width="1" height="1" />
 </form>
 
@@ -69,7 +72,7 @@ class App extends React.Component {
                   <h4 className="volunteer_text">DONATE USING FORM</h4>
                   <p className="lorem_text">
                     If the donation is to a charity of your choice, then please note the charity name on the PDF form and on the cheque memo field.
-                    Filled PDF forms shall be sent to hindusocietyottawa@gmail.com
+                    Please mail filled PDF form and cheque to Hindu Society of Ottawa Carleton, P.O. Box 65122, Merivale, Ottawa. K2G 5Y3
                     </p>
                     <a
                       href={pdf1}
@@ -132,7 +135,7 @@ class App extends React.Component {
       <Footer />
       </>
     );
-  }
+    }
 }
 
 export default App;
