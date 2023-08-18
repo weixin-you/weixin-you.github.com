@@ -54,7 +54,7 @@ class App extends React.Component {
                   <div className="icon_1">
                     <img src={card} style={{ width: '180px', height: '160px' }} alt="Card" />
                   </div>
-                  <h4 className="volunteer_text">DONATE USING PAYPAL/CARD</h4>
+                  <h4 className="volunteer_text">DONATE SECURELY USING PAYPAL/CARD</h4>
                   <p className="lorem_text">Click link below</p>
                     <form action="https://www.paypal.com/donate" method="post" target="_blank">
 <input type="hidden" name="hosted_button_id" value="B8QM8NGATV6GU" />
