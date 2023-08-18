@@ -12,7 +12,7 @@ import About from './pages/About'
 function App() {
   return  (
 
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/donate" element={<Donate />} />
