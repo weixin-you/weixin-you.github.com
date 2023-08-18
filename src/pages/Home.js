@@ -59,7 +59,7 @@ function Home(){
             </div>
             <div className="item3">
               <h3>Volunteer</h3>
-              <p>Contact us to join and help become a part of the solution</p>
+              <p>Contact us to join and help become a part of the solution...</p>
             </div>
           </div>
         </div>
